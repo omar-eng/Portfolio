@@ -25,9 +25,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+              "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
             ],
-            "scripts": []
+            
+            "scripts": [ ]
           },
           "configurations": {
             "production": {
@@ -91,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "f017fa0d-9eda-4b70-8faa-0a4cbd967684"
   }
 }

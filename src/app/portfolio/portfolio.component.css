@@ -1,0 +1,43 @@
+.container{
+    margin-top: 2rem;
+    margin-bottom: 8rem;
+
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.card_container{
+    height: 10rem;
+    padding: 1rem;
+    margin: 2rem;
+    z-index: 10rem;
+    box-shadow: 10px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 20px;
+    color: antiquewhite;
+}
+.text-center{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}
+.lr{
+    position: absolute;
+    color: aliceblue;
+    border: solid 1px wheat;
+    height: 1px;
+    width: 9rem;
+  left: 25%;
+  right: 50%;
+  
+    align-self: center;
+  }
+  

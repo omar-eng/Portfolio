@@ -1,0 +1,25 @@
+.headtext{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0.5rem;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
+    font-family:monospace;
+
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family:monospace;
+}
+.btn{
+    color: white;
+    border: solid 1px #fff;
+}
