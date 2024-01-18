@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
-
-@Component({
+import { NgbProgressbarModule } from '@ng-bootstrap/ng-bootstrap';@Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [NgbProgressbarModule],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })

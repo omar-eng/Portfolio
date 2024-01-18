@@ -35,46 +35,15 @@
               
         </div>
         <div class="col-md-6">
-            <div class="skill">
-                <h3>HTML</h3>
-                <div class="rating-bar">
-                  <div class="rate-8">
-                    <span class="animate blue"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="skill">
-                <h3>CSS</h3>
-                <div class="rating-bar">
-                  <div class="rate-10">
-                    <span class="animate red"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="skill">
-                <h3>Bootstrap</h3>
-                <div class="rating-bar">
-                  <div class="rate-7">
-                    <span class="animate blue"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="skill">
-                <h3>Java Script</h3>
-                <div class="rating-bar">
-                  <div class="rate-6">
-                    <span class="animate red"></span>
-                  </div>
-                </div>
-              </div>
-              <div class="skill">
-                <h3>PHP</h3>
-                <div class="rating-bar">
-                  <div class="rate-5">
-                    <span class="animate blue"></span>
-                  </div>
-                </div>
-              </div>
+          <h3>HTML</h3>
+          <ngb-progressbar class="mb-3" [showValue]="true" type="success" [value]="25" />
+          <h3>CSS</h3>
+          <ngb-progressbar class="mb-3" [showValue]="true" type="info" [value]="25" />
+          <h3>Javascript</h3>
+          <ngb-progressbar class="mb-3" [showValue]="true" type="warning" [value]="25" [max]="100" />
+          <h3>Angular</h3>
+          <ngb-progressbar class="mb-3" [showValue]="true" type="danger" [value]="25" [max]="100" />
+             
         </div>
       </div>
       
